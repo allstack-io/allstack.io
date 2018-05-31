@@ -13,6 +13,7 @@ import { DOCUMENT } from "@angular/platform-browser";
 import { LocationStrategy, PlatformLocation, Location } from "@angular/common";
 import { NavbarComponent } from "./shared/navbar/navbar.component";
 import { version } from "punycode";
+import { AuthService } from "./auth/auth.service";
 
 @Component({
   selector: "app-root",
@@ -28,8 +29,11 @@ export class AppComponent implements OnInit {
     private router: Router,
     @Inject(DOCUMENT) private document: any,
     private element: ElementRef,
-    public location: Location
-  ) {}
+    public location: Location,
+    public auth: AuthService
+  ) {
+    auth.handleAuthentication();
+  }
   ngOnInit() {
     let navbar: HTMLElement = this.element.nativeElement.children[0]
       .children[0];

@@ -8833,17 +8833,17 @@ Created using IcoMoon - icomoon.io
 }
 
 .index-page .page-header,
-.presentation-page .page-header {
+.home-page .page-header {
     height: 125vh;
 }
 
 .index-page .page-header .container>.content-center,
-.presentation-page .page-header .container>.content-center {
+.home-page .page-header .container>.content-center {
     top: 37%;
 }
 
 .index-page .category-absolute,
-.presentation-page .category-absolute {
+.home-page .category-absolute {
     position: absolute;
     top: 100vh;
     margin-top: -60px;
@@ -8853,23 +8853,23 @@ Created using IcoMoon - icomoon.io
     color: rgba(255, 255, 255, 0.5);
 }
 
-.presentation-page .section-sections .section-description {
+.home-page .section-sections .section-description {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.presentation-page .section-sections .col-md-3 {
+.home-page .section-sections .col-md-3 {
     padding: 7.5px;
 }
 
-.presentation-page .section-sections img {
+.home-page .section-sections img {
     width: 100%;
     border-radius: 0.1875rem;
     transition: all 0.2s ease 0s;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-.presentation-page .section-sections img:hover {
+.home-page .section-sections img:hover {
     -webkit-transform: scale(1.02);
     -moz-transform: scale(1.02);
     -o-transform: scale(1.02);
@@ -8877,11 +8877,11 @@ Created using IcoMoon - icomoon.io
     transform: scale(1.02);
 }
 
-.presentation-page .section-pricing .card-pricing {
+.home-page .section-pricing .card-pricing {
     margin-top: 45px;
 }
 
-.presentation-page .section-pricing .card-margin {
+.home-page .section-pricing .card-margin {
     margin-top: 90px;
 }
 

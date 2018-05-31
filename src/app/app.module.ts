@@ -5,14 +5,18 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { RouterModule } from "@angular/router";
 import { AppRoutingModule } from "./app.routing";
 import { SectionsModule } from "./sections/sections.module";
-import { ComponentsModule } from "./components/components.module";
+import { BrowseCoursesModule } from "./browsecourses/browsecourses.module";
 import { ExamplesModule } from "./examples/examples.module";
 
 import { AppComponent } from "./app.component";
-import { PresentationComponent } from "./presentation/presentation.component";
+import { HomeComponent } from "./home/home.component";
 import { NavbarComponent } from "./shared/navbar/navbar.component";
 
-import { PresentationModule } from "./presentation/presentation.module";
+import { HomeModule } from "./home/home.module";
+import { AgmCoreModule } from "@agm/core";
+import { RecaptchaModule, RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recaptcha';
+import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
+import { AuthModule } from "./auth/auth.module";
 
 @NgModule({
     declarations: [
@@ -22,15 +26,22 @@ import { PresentationModule } from "./presentation/presentation.module";
     imports: [
         BrowserAnimationsModule,
         NgbModule.forRoot(),
+        AgmCoreModule.forRoot({
+            apiKey: 'AIzaSyBsPWdknHeIUBAW0k_oDN6pJOCesJ6AmC0'
+          }),
         FormsModule,
+        
         RouterModule,
         AppRoutingModule,
-        PresentationModule,
+        HomeModule,
         SectionsModule,
-        ComponentsModule,
-        ExamplesModule
+        BrowseCoursesModule,
+        ExamplesModule,
+        AuthModule
     ],
-    providers: [],
+    providers: [
+        
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

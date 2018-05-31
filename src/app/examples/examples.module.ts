@@ -16,7 +16,7 @@ import { BlogpostsComponent } from './blogposts/blogposts.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { EcommerceComponent } from './ecommerce/ecommerce.component';
 import { LandingComponent } from './landing/landing.component';
-import { LoginComponent } from './login/login.component';
+// import { LoginComponent } from './login/login.component';
 import { ProductpageComponent } from './productpage/productpage.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
@@ -45,7 +45,7 @@ import { PricingComponent } from './pricing/pricing.component';
         ContactusComponent,
         EcommerceComponent,
         LandingComponent,
-        LoginComponent,
+        // LoginComponent,
         ProductpageComponent,
         ProfileComponent,
         RegisterComponent,

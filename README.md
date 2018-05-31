@@ -23,7 +23,7 @@ We wanted to fully display the power of this kit, so the kit comes packed with e
 ## Links:
 
 + [Live Preview](https://creativetimofficial.github.io/now-ui-kit-pro-angular/components)
-+ [Live Presentation Preview](https://creativetimofficial.github.io/now-ui-kit-pro-angular/presentation)
++ [Live home Preview](https://creativetimofficial.github.io/now-ui-kit-pro-angular/home)
 + [About-us Page](https://creativetimofficial.github.io/now-ui-kit-pro-angular/examples/aboutus)
 + [Blog-post Page](https://creativetimofficial.github.io/now-ui-kit-pro-angular/examples/blogpost)
 + [Blog-posts Page](https://creativetimofficial.github.io/now-ui-kit-pro-angular/examples/blogposts)
@@ -190,12 +190,12 @@ Now Ui Kit Pro Angular
 │   │   │       ├── register.component.scss
 │   │   │       ├── register.component.spec.ts
 │   │   │       └── register.component.ts
-│   │   ├── presentation
-│   │   │   ├── presenatation.component.spec.ts
-│   │   │   ├── presentation.component.html
-│   │   │   ├── presentation.component.scss
-│   │   │   ├── presentation.component.ts
-│   │   │   └── presentation.module.ts
+│   │   ├── home
+│   │   │   ├── home.component.spec.ts
+│   │   │   ├── home.component.html
+│   │   │   ├── home.component.scss
+│   │   │   ├── home.component.ts
+│   │   │   └── home.module.ts
 │   │   ├── sections
 │   │   │   ├── blogs
 │   │   │   │   ├── blogs.component.html
